@@ -15,7 +15,7 @@ async def start(update: Update, context: CallbackContext):
 
 async def handle_message(update: Update, context: CallbackContext):
     user_message = update.message.text
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-2.0flash")
     response = model.generate_content(user_message)
     
     # Balas dengan hasil dari Gemini
