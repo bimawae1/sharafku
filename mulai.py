@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Set API Keys
-GEMINI_API_KEY =AIzaSyC1UHTrPC4F3BhCe4tKQY25Lxh95RoLZuY
-TELEGRAM_BOT_TOKEN =8150109320:AAFfJ2nixRgYoHrlgXMc1q58Y6ZJVrFO530
+GEMINI_API_KEY = "AIzaSyC1UHTrPC4F3BhCe4tKQY25Lxh95RoLZuY"
+TELEGRAM_BOT_TOKEN = "8150109320:AAFfJ2nixRgYoHrlgXMc1q58Y6ZJVrFO530"
 
 # Konfigurasi Google Gemini
 genai.configure(api_key=GEMINI_API_KEY)
